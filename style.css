@@ -3,7 +3,8 @@ html {
     font-family: 'inter', sans-serif;
 }
 
-ul, li {
+ul, li, p, h1, h2, h3, h4, h5, h6 {
+    list-style: none;
     margin: 0;
     padding: 0;
 }
@@ -70,4 +71,25 @@ img {
     border: 0.1rem solid black;
     border-radius: 0.5rem;
     width: 1.6rem;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.introduction h1 {
+    font-size: 1.35rem;
+    font-weight: 600;
+    color: rgb(151 151 159);
+    letter-spacing: .06rem;
+}
+
+.introduction h2 {
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(151 151 159);
 }
